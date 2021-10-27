@@ -1,0 +1,50 @@
+{
+    "name": "Artabia",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve --open",
+        "build": "vue-cli-service build --mode production",
+        "lint": "eslint --ext .js,.vue src",
+        "build:dev": "vue-cli-service build --mode development",
+        "build:prod": "vue-cli-service build --mode production",
+        "build:stage": "vue-cli-service build --mode staging",
+        "dev": "vue-cli-service serve",
+        "start": "vue-cli-service serve --open"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-brands-svg-icons": "^5.15.4",
+        "@fortawesome/free-regular-svg-icons": "^5.15.4",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/vue-fontawesome": "^2.0.2",
+        "autoprefixer": "^9.8.7",
+        "axios": "^0.22.0",
+        "bootstrap-vue": "^2.17.0",
+        "core-js": "^3.6.5",
+        "integration": "git+https://Artabia@bitbucket.org/Artabia/artabianewintegrationcode.git",
+        "marked": "^3.0.7",
+        "moment": "^2.24.0",
+        "moment-timezone": "^0.5.28",
+        "moralis": "^0.0.74",
+        "portal-vue": "^2.1.7",
+        "postcss": "^7.0.38",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16",
+        "vue": "^2.6.11",
+        "vue-axios": "^3.3.7",
+        "vue-i18n": "^8.25.1",
+        "vue-loading-overlay": "^3.0",
+        "vue-recaptcha": "^1.3.0",
+        "vue-router": "^3.2.0",
+        "vuex": "^3.4.0",
+        "web3": "^1.6.0",
+        "yarn": "^1.22.15"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-vuex": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "vue-template-compiler": "^2.6.11"
+    }
+}

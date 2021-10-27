@@ -1,0 +1,22 @@
+{
+    "id": "1",
+    "name": "John",
+    "username": "john-123",
+    "bio": "I am a web developer",
+    "email": "john@example.com",
+    "lang": "en",
+    "profileImage": "assets/images/icons/avatar.png",
+    "coverImage": "",
+    "createdAt": 1631731957,
+    "followerCount": 10,
+    "followingCount": 20,
+    "social": {
+        "website": "http://google.com",
+        "discord": "john#0652",
+        "youtube": "",
+        "facebook": "johndoe",
+        "twitch": "",
+        "tiktok": "",
+        "snapchat": ""
+    }
+}

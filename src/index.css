@@ -1,0 +1,40 @@
+/* ./src/main.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+.artabia-dark-color {
+    background-color: rgb(44, 44, 44)
+}
+
+.artabia-dark-text {
+    color: rgb(44, 44, 44)
+}
+
+.artabia-border-dark-color {
+    border-color: rgb(44, 44, 44) !important
+}
+
+.artabia-border-dark-color-hover:hover {
+    border-color: rgb(44, 44, 44) !important
+}
+
+@keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}

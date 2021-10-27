@@ -1,0 +1,90 @@
+[
+    {
+        "id": "1",
+        "title": "Flowers",
+        "cardImg": "https://picsum.photos/500/500/?image=25",
+        "price": "0.51",
+        "user": {
+            "name": "John Doe",
+            "avatar": "https://picsum.photos/30/30/?image=25",
+            "createdDate": "818035920000"
+        }
+    },
+    {
+        "id": "2",
+        "title": "Flowers",
+        "cardImg": "https://picsum.photos/500/500/?image=26",
+        "price": "0.51",
+        "user": {
+            "name": "John Doe",
+            "avatar": "https://picsum.photos/30/30/?image=26",
+            "createdDate": "818035920000"
+        }
+    },
+    {
+        "id": "3",
+        "title": "Flowers",
+        "cardImg": "https://picsum.photos/500/500/?image=27",
+        "price": "0.51",
+        "user": {
+            "name": "John Doe",
+            "avatar": "https://picsum.photos/30/30/?image=27",
+            "createdDate": "818035920000"
+        }
+    },
+    {
+        "id": "4",
+        "title": "Flowers",
+        "cardImg": "https://picsum.photos/500/500/?image=28",
+        "price": "0.51",
+        "user": {
+            "name": "John Doe",
+            "avatar": "https://picsum.photos/30/30/?image=28",
+            "createdDate": "818035920000"
+        }
+    },
+    {
+        "id": "5",
+        "title": "Flowers",
+        "cardImg": "https://picsum.photos/500/500/?image=29",
+        "price": "0.51",
+        "user": {
+            "name": "John Doe",
+            "avatar": "https://picsum.photos/30/30/?image=29",
+            "createdDate": "818035920000"
+        }
+    },
+    {
+        "id": "6",
+        "title": "Flowers",
+        "cardImg": "https://picsum.photos/500/500/?image=30",
+        "price": "0.51",
+        "user": {
+            "name": "John Doe",
+            "avatar": "https://picsum.photos/30/30/?image=30",
+            "createdDate": "818035920000"
+        }
+    },
+    {
+        "id": "7",
+        "title": "Flowers",
+        "cardImg": "https://picsum.photos/500/500/?image=31",
+        "price": "0.51",
+        "user": {
+            "name": "John Doe",
+            "avatar": "https://picsum.photos/30/30/?image=31",
+            "createdDate": "818035920000"
+        }
+    },
+    {
+        "id": "8",
+        "title": "Flowers",
+        "cardImg": "https://picsum.photos/500/500/?image=32",
+        "price": "0.51",
+        "user": {
+            "name": "John Doe",
+            "avatar": "https://picsum.photos/30/30/?image=32",
+            "createdDate": "818035920000"
+        }
+    }
+]
