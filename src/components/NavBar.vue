@@ -201,26 +201,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 140px;
-    background: #000;
-    color: #fff;
-    height: 40px;
-    border: 1px solid #444;
+    min-width: 120px;
+    background: #2b2c2c;
+    color: #e4ccbd;
+    height: 35px;
+    border: 1px solid #eee1d9;
     box-shadow: inset 0 0 2px 0px rgb(245 229 229 / 50%);
+    border-radius: 5px 0 0 5px;
 }
 .wallet_select_option {
-    min-width: 140px;
-    background: #000;
-    color: #fff;
+    min-width: 120px;
+    background: #2b2c2c;
+    color: #eee1d9;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0;
-    height: 40px;
-    border: 1px solid #444;
+    height: 35px;
+    line-height: 35px;
+    padding: 0;
+    border: 1px solid #eee1d9;
     box-shadow: inset 0 0 2px 0px rgb(245 229 229 / 50%);
+    border-radius: 0 5px 5px 0;
 }
+
 .wallet_select_txt b{
     padding-left: 5px;
 }

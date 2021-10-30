@@ -1,5 +1,7 @@
 <template>
   <div>
+    <div class="cover_bg">
+    </div>
     <div class="container">
       <profile-sidebar/>
       <div class="collection-container">
@@ -96,4 +98,5 @@ export default {
   }
 
 }
+
 </style>

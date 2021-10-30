@@ -14,7 +14,7 @@
     </b-card-text>
     <template #footer>
       <div class="footer-slot">
-        <div class="price price flex justify-between px-3 py-2.5 items-center">
+        <div class="price price flex px-3 py-2.5 items-center">
           <span class="flex flex-col text-left">
             <span :class="leftSideTextTopClass">{{leftSideTextTop}}</span>
             <span>{{leftSideTextBottom}}</span>
@@ -22,8 +22,21 @@
 
           <span v-if="rightSide" class="flex flex-col text-left">
             <span>Ending in</span>
-            <span>0 d , 0 h m , 0 s</span>
+            <span>0 d , 0 h m , 0 s</span>            
           </span>
+          <!-- <b-dropdown id="dropdown" dropright class="m-2" icon="three-dots-vertical">
+            <b-dropdown-item href="#">Transfer</b-dropdown-item>
+            <b-dropdown-item href="#">List (On Marketplace)</b-dropdown-item>
+          </b-dropdown> -->
+          <div class="carditem_dots">
+            <b-dropdown dropright toggle-class="carditem_dots_tgl p-0 has-background-white btn-light" no-caret>
+              <template #button-content>
+                <b-icon icon="three-dots-vertical" aria-hidden="true"></b-icon> 
+              </template>
+              <b-dropdown-item href="#">Transfer</b-dropdown-item>
+              <b-dropdown-item href="#">List (On Marketplace)</b-dropdown-item>
+            </b-dropdown>
+          </div>
         </div>
       </div>
     </template>
@@ -31,6 +44,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'ItemCard',
   props: {
@@ -101,5 +115,21 @@ export default {
   color: #7259cb;
   font-weight: bold;
   font-size: 0.9rem;
+}
+.carditem_dots {
+  margin-left: auto;
+}
+
+.carditem_dots .carditem_dots_tgl {
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  color: #2b2c2c !important;
+}
+.carditem_dots button#__BVID__101__BV_toggle_ {
+  background: transparent;
+  color: #ddd;
+  border: 0;
+  padding: 0;
 }
 </style>

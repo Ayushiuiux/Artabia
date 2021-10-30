@@ -38,7 +38,7 @@
 
     <figure class="flex items-center justify-around my-10">
       <icon link="/create?type=single" :img="single.path" :title="single.name"/>
-      <icon link="" :img="multiple.path" :title="multiple.name" class="multi_select"/>
+      <icon :img="multiple.path" :title="multiple.name" class="multi_select"/>
     </figure>
 
     <p class="text-gray-500 font-semibold text-lg">We do not own your private keys and cannot access your funds without

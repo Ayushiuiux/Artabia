@@ -14,7 +14,7 @@
           <div class="container get-featured">
             <div class="flex justify-center">
               <figure class="flex items-center home_featured">
-                <b-link href="javascript:;" class="home_featured_link">
+                <b-link href="/contact" class="home_featured_link">
                   Get featured on the homepage
                   <img :src="require('@/assets/images/icons/up-arrow-icon.png')" alt="arrow up">
                 </b-link>
